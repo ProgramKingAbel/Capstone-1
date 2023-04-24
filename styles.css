@@ -23,4 +23,91 @@ body {
   margin: 0 auto;
 }
 
+header {
+  width: 100%;
+}
 
+header nav .upper {
+  background: #3E3E3E;
+  color: #fff;
+}
+
+header .upper ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+header .upper ul li a {
+  color: #fff;
+}
+
+/* Lower nav  */
+nav .lower {
+  background: #fff;
+  color: #3E3E3E;
+}
+
+.lower ul li a {
+  color: #3E3E3E;
+}
+
+nav .lower .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+header .lower .container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav-logo {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #272a31;
+  opacity: 0.7;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu li a:hover {
+  color: #ec5242;
+}
+
+.nav-menu .nav-item:nth-child(6) a {
+  color: #ec5242;
+}
+
+.nav-menu .nav-item:nth-child(6) a:hover {
+  color: #272a31;
+}
+
+.campaign {
+  border: 2px solid #ec5242;
+  padding: 0.4rem;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
